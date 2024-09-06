@@ -150,6 +150,12 @@
         <mxCell id="rSQf4wkpr2GOWMnako5n-183" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="rSQf4wkpr2GOWMnako5n-180">
           <mxGeometry y="90" width="280" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="rSQf4wkpr2GOWMnako5n-363" value="uvm_config_db#(virtual in_interface)::&lt;br&gt;set(null,$sformatf(&quot;*in_agent[%0d]*&quot;,i),&quot;bus&quot;,v_pkt_in_if[i])" style="text;html=1;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="1191.25" y="900" width="330" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="rSQf4wkpr2GOWMnako5n-364" value="uvm_config_db(uvm_object_wrapper)::&lt;br&gt;set(null,$sformatf(&quot;*in_agent[%0d].pkt_in_sqr.main_phase&quot;,i),&quot;default&quot;,in_seq.type_id::get()))" style="text;html=1;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="1191.25" y="930" width="418.75" height="25" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
